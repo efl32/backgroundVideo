@@ -1,0 +1,40 @@
+* {
+  margin: 0; padding: 0;
+}
+
+#container {
+  overflow: hidden;
+  height: 600px;
+  position: relative;
+  z-index: 5;
+}
+#title{
+    z-index: 100;
+
+    h1{
+        margin-top: 80px;
+        text-align: center;
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: rem-calc(45);
+        padding-bottom: 80px;
+    }
+}
+#section2{
+    p{
+        font-family: "Roboto";
+        font-weight: 100;
+        font-size: rem-calc(20);
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 100px;
+    }
+}
+
+video {
+  position: absolute;
+
+  /* Vertical and Horizontal center*/
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
